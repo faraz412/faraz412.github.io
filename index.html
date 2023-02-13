@@ -18,23 +18,23 @@
         </div>
         <div id="nav-menu">
             <li class="nav-link home">
-                <a>Home</a>
+                <a class="nav-link home" href="#home">Home</a>
             </li>
             <li class="nav-link about">
-                <a>About</a>
+                <a class="nav-link about" href="#about">About</a>
             </li>
             <li class="nav-link skills">
-                <a>Skills</a>
+                <a class="nav-link skills" href="#skills">Skills</a>
             </li>
             <li class="nav-link projects">
-                <a>Projects</a>
+                <a class="nav-link projects" href="#projects">Projects</a>
             </li>
             <li class="nav-link contact">
-                <a>Contact</a>
+                <a class="nav-link contact" href="#contact">Contact</a>
             </li>
         </div>
         <div id="nav-download">
-            <button class="nav-link resume">Resume <i class="fa fa-download"></i></button>
+            <button id="resume-button-1" class="nav-link resume">Resume <i class="fa fa-download"></i></button>
         </div>
     </div>
     <div id="home">
@@ -52,62 +52,93 @@
         <h1>ABOUT ME</h1>
         <div class="about-body">
             <div class="about-left">
-                <div class="profile-img">
+                <div class="home-img">
                     <img src="./avatars/profile pic square.jpg" alt="profile"/>
                 </div>
             </div>
             <div class="about-right">
-                <h2>Lorem ipsum dolor sit amet.</h2><br>
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet dolores. Voluptatem quam quod libero illum nisi sapiente ut soluta blanditiis consectetur enim, nulla facilis cum officia earum consequuntur! Velit tenetur, saepe repellat eligendi pariatur molestias vel aut eos similique dicta! Laborum recusandae rerum alias.</h3>
+                <h2 id="user-detail-name">Lorem ipsum dolor sit amet</h2><br>
+                <h3 id="user-detail-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet dolores. Voluptatem quam quod libero illum nisi sapiente ut soluta blanditiis consectetur enim, nulla facilis cum officia earum consequuntur! Velit tenetur, saepe repellat eligendi pariatur molestias vel aut eos similique dicta! Laborum recusandae rerum alias.</h3>
+                <button id="resume-button-2">Resume <i class="fa fa-download"></i></button>
             </div>
         </div>
     </div>
     <div id="skills">
         <h1>TECH STACK AND TOOLS</h1>
         <div class="skills-body">
-            <div class="skills-img">
-                <img alt="HTML" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"/>
+            <div class="skills-card">
+                <img class="skills-card-img" alt="HTML" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"/>
+                <h3 class="skills-card-name">HTML</h3>
             </div>
-            <div class="skills-img">
-                <img alt="CSS" src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"/>
+            <div class="skills-card">
+                <img class="skills-card-img" alt="CSS" src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"/>
+                <h3 class="skills-card-name">CSS</h3>
             </div>
-            <div class="skills-img">
-                <img alt="JS" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"/>
+            <div class="skills-card">
+                <img class="skills-card-img" alt="JS" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"/>
+                <h3 class="skills-card-name">JavaScript</h3>            
             </div>
-            <div class="skills-img">
-                <img alt="NODEJS" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"/>
+            <div class="skills-card">
+                <img class="skills-card-img" alt="NODEJS" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"/>
+                <h3 class="skills-card-name">Node.js</h3>            
             </div>
-            <div class="skills-img">
-                <img alt="EXPRESS" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"/>
+            <div class="skills-card">
+                <img class="skills-card-img" alt="EXPRESS" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"/>
+                <h3 class="skills-card-name">Express</h3>
             </div>
-            <div class="skills-img">
-                <img alt="MONGO DB" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"/>
+            <div class="skills-card">
+                <img class="skills-card-img" alt="MONGO DB" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"/>
+                <h3 class="skills-card-name">Mongo DB</h3>
             </div>
-            <div class="skills-img">
-                <img alt="SOCKET" src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg"/>
+            <div class="skills-card">
+                <img class="skills-card-img" alt="SOCKET" src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.svg"/>
+                <h3 class="skills-card-name">socket.io</h3>
             </div>
-            <div class="skills-img">
-                <img alt="GIT" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"/>
+            <div class="skills-card">
+                <img class="skills-card-img" alt="GIT" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"/>
+                <h3 class="skills-card-name">git</h3>
             </div>
-            <div class="skills-img">
-                <img alt="VS CODE" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"/>
+            <div class="skills-card">
+                <img class="skills-card-img" alt="VS CODE" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"/>
+                <h3 class="skills-card-name">VS Code</h3>
             </div>
-            <div class="skills-img">
-                <img alt="REPLIT" src="https://www.vectorlogo.zone/logos/replit/replit-ar21.svg"/>
+            <div class="skills-card">
+                <img class="skills-card-img" alt="REPLIT" src="https://www.vectorlogo.zone/logos/replit/replit-ar21.svg"/>
+                <h3 class="skills-card-name">Replit</h3>
             </div>
-            <div class="skills-img">
-                <img alt="POSTMAN" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg"/>
+            <div class="skills-card">
+                <img class="skills-card-img" alt="POSTMAN" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg"/>
+                <h3 class="skills-card-name">Postman</h3>
             </div>
-            <div class="skills-img">
-                <img alt="GH" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"/>
+            <div class="skills-card">
+                <img class="skills-card-img" alt="GH" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"/>
+                <h3 class="skills-card-name">Github</h3>
             </div>
         </div>
     </div>
     <div id="projects">
-        
+        <!-- <h1>My Projects &nbsp;<i class="fa-solid fa-diagram-project"></i></h1>
+        <div class="projects-body">
+        </div> -->
     </div>
     <div id="contact">
-
+        <h1>CONTACT ME<span>&nbsp;&nbsp;<i class="fa-solid fa-address-card"></i></span></h1>
+        <div class="contact-body">
+            <div class="contact-left">
+                <h2>My Socials</h2>
+                <div>
+                    <a href="https://github.com/faraz412" id="contact-github"><i class="fa-brands fa-github"></i>&nbsp;&nbsp; Github</a>
+                    <a href="https://www.linkedin.com/in/ahamed-faraz/" id="contact-linkedin"><i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp; Linkedin</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <h2>My Personal Contact</h2>
+                <div>
+                    <a id="contact-email"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp; ahmedfaraz412@gmail.com</a>
+                    <a id="contact-phone"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp; +91 9738855185</a>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
