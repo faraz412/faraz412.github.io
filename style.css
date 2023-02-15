@@ -10,7 +10,7 @@ li{
 }
 
 /* ------------- NAVBAR SECTION----------------- */
-#navbar{
+#nav-menu{
     background-color: #05386b;
     display: flex;
     height:80px;
@@ -35,7 +35,7 @@ li{
     font-size: 20px;
     font-weight: 500;
 }
-#nav-menu a{
+#navbar-menu a{
     color: #6dc2b0;
     padding: 5px 10px;
     border-radius: 5px;
