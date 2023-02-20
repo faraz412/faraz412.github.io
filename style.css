@@ -87,13 +87,25 @@ li{
 #about{
     background-color: #86b3d1;
     border-bottom:5px solid #4d6d9a;
-    height:100vh;
     color: #05386b;
 }
 #about>h1{
     text-align: center;
     padding-top:150px;
     text-decoration: underline;
+}
+#resume-button-2{
+    background-color: #05386b;
+    width:15%;
+    margin:10px auto;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #6dc2b0;
+    display:flex;
+    justify-content: center;
 }
 .about-body{
     /* border:1px solid black; */
@@ -117,7 +129,7 @@ li{
     border:4px solid #4d6d9a;
     border-radius: 10px;
 }
-.about-right{
+.about-details{
     /* border:1px solid red; */
     width:55%;
     display: flex;
@@ -127,17 +139,6 @@ li{
 /* .about-right>h2{
     text-decoration: underline;
 } */
-#resume-button-2{
-    background-color: #05386b;
-    width:40%;
-    margin:20px 0;
-    border:none;
-    border-radius: 5px;
-    padding: 10px 0;
-    font-size: 20px;
-    font-weight: 500;
-    color: #6dc2b0;
-}
 
 /* -------------SKILLS SECTION----------------- */
 #skills{
