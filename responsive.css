@@ -1,0 +1,172 @@
+/* -------------MEDIA QUERIES ---------- */
+@media all and (min-width:1200px){
+    #navbar-menu{
+        display: flex;
+    }
+}
+
+@media all and (min-width:701px) and (max-width:1200px){
+    #nav-name{
+        /* border:1px solid red; */
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #navbar-menu{
+        font-size: 16px;
+        display: flex;
+    }
+    .about-body{
+        display: block;
+        margin:75px auto;
+        text-align: center;
+    }
+    .about-left{
+        /* border:1px solid red; */
+        width:60%;
+        margin:auto;
+    }
+    .about-details{
+        /* border:1px solid red; */
+        width:100%;
+        margin:20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #resume-link-2{
+        width:25%;
+        margin:15px auto;
+    }
+    .skills-body{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:30px 30px; 
+    }
+    #github-stats{
+        /* border:1px solid black; */
+        width:70%;
+        margin:50px auto;
+        display: block;
+    }
+    #github-stats>div{
+        width:100%;
+        margin: 20px auto;
+        /* border:1px solid red; */
+    }
+    .project-card{
+        display: block;
+    }
+    .project-img{
+        width:100%;
+    }
+    .project-info{
+        margin-top: 20px;
+        width:100%;
+    }
+    .contact-body{
+        /* border:1px solid black; */
+        width:70%;
+        margin: 60px auto;
+        display: block;   
+    }
+    .contact-text{
+        width: 100%;
+        margin-top:15px; 
+    }
+    #contact-img{
+        width:100%;
+    } 
+}
+
+@media all and (min-width:279px) and (max-width:700px){
+    #hamb{
+        display: block;
+        font-size: 20px;
+        color:#6dc2b0;
+    }
+    #navbar-menu{
+        border: 2px solid #86b3d1;
+        border-radius: 5px;
+        position: absolute;
+        left:5%;
+        top:69%;
+        display: none;
+        width:30%;
+        text-align: center;
+        background-color: #05386b;
+    }
+    #navbar-menu>li{
+        border-bottom: 2px solid #6dc2b0;
+        padding:2px 0;
+    }
+    .about-body{
+        display: block;
+        margin:75px auto;
+        text-align: center;
+    }
+    .about-left{
+        /* border:1px solid red; */
+        width:70%;
+        margin:auto;
+    }
+    .about-details{
+        /* border:1px solid red; */
+        width:100%;
+        margin:20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #resume-link-2{
+        width:50%;
+        margin:15px auto;
+    }
+    .skills-body{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:30px 30px; 
+    }
+    #github-stats{
+        /* border:1px solid black; */
+        width:70%;
+        margin:50px auto;
+        display: block;
+    }
+    #github-stats>div{
+        width:100%;
+        margin: 20px auto;
+        /* border:1px solid red; */
+    }
+    .project-card{
+        display: block;
+        padding:7px;
+    }
+    .project-img{
+        width:100%;
+    }
+    .project-info{
+        margin-top: 7px;
+        width:100%;
+    }
+    .project-tech-stack{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+    }
+    .project-buttons{
+        width:70%;
+    }
+    .contact-body{
+        /* border:1px solid black; */
+        width:90%;
+        margin: 60px auto;
+        display: block;   
+    }
+    .contact-text{
+        width: 100%;
+        margin-top:15px; 
+    }
+    #contact-img{
+        width:100%;
+    } 
+}
