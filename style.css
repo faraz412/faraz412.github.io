@@ -359,7 +359,7 @@ button:active{
 #github{
     background-color:  #D4F1F4;
     padding:95px 0;
-    color: #05386b;
+    /* color: #05386b; */
 }
 #github>h1{
     text-align: center;
@@ -379,6 +379,20 @@ button:active{
 #github-stats>div>img{
     width:100%;
     height:100%;
+}
+.react-activity-calendar{
+    /* border:1px solid red; */
+    margin:20px auto;
+    width:85%;
+    /* background-color:black; */
+}
+.calendar{
+    /* border:1px solid red; */
+    width:100%;
+    margin: auto;
+    background-color:#05386b;
+    padding:20px;
+    color: white;
 }
 
 /* -----------------------FOOTER---------------- */

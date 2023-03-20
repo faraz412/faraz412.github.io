@@ -138,14 +138,16 @@
         /* border:1px solid red; */
     }
     .project-card{
-        display: block;
-        padding:7px;
+        border:2px solid red;
+        display: flex;
+        flex-direction: column;
+        padding:12px;
     }
     .project-img{
         width:100%;
     }
     .project-info{
-        margin-top: 7px;
+        margin-top: 15px;
         width:100%;
     }
     .project-tech-stack{

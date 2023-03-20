@@ -1,5 +1,5 @@
-const resumeBtn1=document.getElementById("resume-button-1");
-const resumeBtn2=document.getElementById("resume-button-2");
+// const resumeBtn1=document.getElementById("resume-button-1");
+// const resumeBtn2=document.getElementById("resume-button-2");
 
 // resumeBtn1.addEventListener("click",(e)=>{
 //     setTimeout(()=>{
@@ -15,6 +15,15 @@ const resumeBtn2=document.getElementById("resume-button-2");
 //     },500);
 // })
 
+const resumebtns=document.querySelectorAll(".click");
+for(resumebtn of resumebtns){
+    resumebtn.addEventListener("click",(e)=>{
+        setTimeout(()=>{
+            window.open("https://drive.google.com/file/d/1AcxnYYI7awYPNpPfYKPZAK_I_cW6gWmD/view?usp=sharing",'_blank');
+        },500);
+    })
+}
+
 const hamburger=document.getElementById("hamb");
 const navbar_menu=document.getElementById("navbar-menu");
 
@@ -25,3 +34,9 @@ hamburger.addEventListener("click", (e)=>{
         navbar_menu.style.display="none";
     }
 })
+
+GitHubCalendar(".calendar", "faraz412", {
+    responsive: true,
+    global_stats: true,
+    tooltips: true,
+  });
