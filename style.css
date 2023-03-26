@@ -87,10 +87,11 @@ button:active{
     /* border:1px solid black; */
     width:50%;
     color:#05386b;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     padding-left: 10%;
+    padding-top: 7%;
 }
 .home-right{
     /* border:1px solid black; */
@@ -102,19 +103,43 @@ button:active{
 .home-right>img{
     width:100%;
 }
+#resume-link-2{
+    /* border:1px solid red; */
+    width:25%;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #05386b;
+    transition: transform .2s;
+}
+#resume-button-2{
+    background-color: #05386b;
+    border:none;
+    border-radius: 5px;
+    margin-top:20px;
+    padding:7px 14px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #D4F1F4;
+}
+#resume-link-2:hover{
+    transform: scale(1.1);
+}
 
 /* -------------ABOUT SECTION----------------- */
 #about{
     background-color: #D4F1F4;
-    color: #05386b;
     padding: 95px 0;
 }
 #about>h1{
     text-align: center;
     text-decoration: underline;
+    color: #05386b;
 }
 .about-body{
-    /* border:1px solid black; */
+    border:1px solid black;
+    background-color: #05386b;
+    color: #D4F1F4;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 10px;
     width:80%;
@@ -129,7 +154,7 @@ button:active{
 }
 .about-left{
     /* border:1px solid red; */
-    width:30%;
+    width:25%;
     display: flex;
     align-items: center;
 }
@@ -144,26 +169,13 @@ button:active{
 }
 .about-details{
     /* border:1px solid red; */
-    width:65%;
+    width:70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-#resume-link-2{
-    /* border:1px solid red; */
-    width:20%;
-    margin:20px 0;
-    padding: 10px 0;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #05386b;
-}
-#resume-button-2{
-    background-color: #05386b;
-    border:none;
-    font-size: 20px;
-    font-weight: 500;
-    color: #D4F1F4;
+.about-details>h4{
+    line-height: 30px;
 }
 
 /* -------------SKILLS SECTION----------------- */
@@ -264,6 +276,7 @@ button:active{
 }
 .project-info>p{
     margin-top: 10px;
+    font-size: 17px;
 }
 .project-tech-stack{
     /* border:1px solid red; */
@@ -282,9 +295,11 @@ button:active{
     margin:auto;
     display: flex;
     justify-content: space-around;
+}
+.project-buttons>a{
     transition: transform .2s;
 }
-.project-buttons:hover{
+.project-buttons>a:hover{
     transform: scale(1.1);
 }
 .project-github-link{
