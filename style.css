@@ -64,11 +64,13 @@ button:active{
     padding: 5px 10px;
     font-size: 20px;
     font-weight: 500;
-    color: #05386b;
     transition: transform .2s;
 }
 #resume-button-1:hover{
     transform: scale(1.1);
+}
+#resume-link-1{
+    color:#05386b;
 }
 /* -------------HOME SECTION----------------- */
 
@@ -103,27 +105,27 @@ button:active{
 .home-right>img{
     width:100%;
 }
-#resume-link-2{
-    /* border:1px solid red; */
-    width:25%;
-    padding: 10px 0;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #05386b;
-    transition: transform .2s;
-}
 #resume-button-2{
     background-color: #05386b;
     border:none;
     border-radius: 5px;
-    margin-top:20px;
-    padding:7px 14px;
+    padding: 7px 14px;
     font-size: 20px;
     font-weight: 500;
-    color: #D4F1F4;
+    margin-top:10px;
+    transition: transform .2s;
 }
-#resume-link-2:hover{
+#resume-button-2:hover{
     transform: scale(1.1);
+}
+#resume-link-2{
+    color: #D4F1F4;
+    /* border:1px solid red; */
+    /* width:25%;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #05386b; */
 }
 
 /* -------------ABOUT SECTION----------------- */

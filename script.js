@@ -15,14 +15,18 @@
 //     },500);
 // })
 
-const resumebtns=document.querySelectorAll(".click");
-for(resumebtn of resumebtns){
-    resumebtn.addEventListener("click",(e)=>{
-        setTimeout(()=>{
-            window.open("https://drive.google.com/file/d/1AcxnYYI7awYPNpPfYKPZAK_I_cW6gWmD/view?usp=sharing",'_blank');
-        },500);
-    })
-}
+function resume(){
+    window.open("./fw22_0189-Ahamed-Faraz-Resume.pdf","_blank")
+  }
+
+// const resumebtns=document.querySelectorAll(".click");
+// for(resumebtn of resumebtns){
+//     resumebtn.addEventListener("click",(e)=>{
+//         setTimeout(()=>{
+//             window.open("https://drive.google.com/file/d/1AcxnYYI7awYPNpPfYKPZAK_I_cW6gWmD/view?usp=sharing",'_blank');
+//         },500);
+//     })
+// }
 
 const hamburger=document.getElementById("hamb");
 const navbar_menu=document.getElementById("navbar-menu");
