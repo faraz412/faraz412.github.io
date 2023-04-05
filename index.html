@@ -18,38 +18,37 @@
 <body>
     <!------------- NAVBAR SECTION----------------->
     <div id="nav-menu">
-        <div id="hamb">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-        <div data-aos="zoom-in" data-aos-duration="1000" id="nav-name">
-            <a href="#home">Ahamed Faraz</a>
-        </div>
-        <div data-aos="zoom-in" data-aos-duration="1000" id="navbar-menu">
-            <li>
-                <a class="nav-link home" href="#home">Home</a>
-            </li>
-            <li>
-                <a class="nav-link about" href="#about">About</a>
-            </li>
-            <li>
-                <a class="nav-link skills" href="#skills">Skills</a>
-            </li>
-            <li>
-                <a class="nav-link projects" href="#projects">Projects</a>
-            </li>
-            <li>
-                <a class="nav-link contact" href="#contact">Contact</a>
-            </li>
-        </div>
-        <div data-aos="zoom-in" data-aos-duration="1000" id="nav-download">
-            <button id="resume-button-1" class="nav-link resume" onclick="resume()">
-                <a href="./fw22_0189-Ahamed-Faraz-Resume.pdf" id="resume-link-1"  download="fw22_0189-Ahamed-Faraz-Resume.pdf">
-                  Resume <i class="fa fa-download"></i>
-                </a>
-            </button>
-            <!-- <a class="click" id="resume-link-1" href="./fw22_0189-Ahamed-Faraz-Resume.pdf" target="_blank" download="fw22_0189-Ahamed-Faraz-Resume.pdf">
-                <button id="resume-button-1" class="nav-link resume">Resume <i class="fa fa-download"></i></button>
-            </a> -->
+        <div id="nav-cont">
+            <div id="hamb">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="1000" id="nav-name">
+                <a href="#home">Ahamed Faraz</a>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="1000"  id="navbar-menu">
+                <li>
+                    <a class="nav-link home" href="#home">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link about" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="nav-link skills" href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a class="nav-link projects" href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a class="nav-link contact" href="#contact">Contact</a>
+                </li>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="1000"  id="nav-download">
+                <button id="resume-button-1" class="nav-link resume" onclick="resume()">
+                    <a href="./fw22_0189-Ahamed-Faraz-Resume.pdf" id="resume-link-1"  download="fw22_0189-Ahamed-Faraz-Resume.pdf">
+                      Resume <i class="fa fa-download"></i>
+                    </a>
+                </button>
+            </div>
         </div>
     </div>
     <div id="home">
@@ -307,10 +306,10 @@
     <div id="contact">
         <h1 data-aos="fade-up"data-aos-duration="1000">Contact me&nbsp;<i class="fa-solid fa-address-book"></i></h1>
         <div class="contact-body">
-            <div data-aos="fade-right" data-aos-duration="3000" id="contact-img">
+            <div id="contact-img">
                 <img alt="contact" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/b41e1e27075137.5635f8edb514a.gif"/>
             </div>
-            <div data-aos="fade-left" data-aos-duration="3000" class="contact-text">
+            <div class="contact-text">
                 <h2>Get in Touch</h2>
                 <div>
                     <a id="contact-email"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp; ahmedfaraz412@gmail.com</a>
@@ -325,18 +324,17 @@
         <h1 data-aos="fade-up"data-aos-duration="1000">My github stats&nbsp;<i class="fa-brands fa-git-alt"></i></h1>
         <div data-aos="zoom-in" data-aos-duration="1000" class="react-activity-calendar">
             <div class="calendar">
-                <!-- Loading stuff -->
-                Loading the data just for you.
+                Loading the data just for you...
             </div>
         </div>
         <div id="github-stats">
-            <div data-aos="fade-right" data-aos-duration="3000">
+            <div>
                 <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=faraz412" alt="faraz412"/>
             </div>
-            <div data-aos="fade-down" data-aos-duration="3000">
+            <div>
                 <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=faraz412&layout=compact" alt="faraz412" />
             </div>
-            <div data-aos="fade-left" data-aos-duration="3000">
+            <div>
                 <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=faraz412&border_radius=5"/>
             </div>
         </div>

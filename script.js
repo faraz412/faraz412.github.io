@@ -42,5 +42,5 @@ hamburger.addEventListener("click", (e)=>{
 GitHubCalendar(".calendar", "faraz412", {
     responsive: true,
     global_stats: true,
-    tooltips: true,
+    tooltips: true
   });
