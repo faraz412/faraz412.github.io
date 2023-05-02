@@ -16,7 +16,7 @@
 // })
 
 function resume(){
-    window.open("./fw22_0189-Ahamed-Faraz-Resume.pdf","_blank")
+    window.open("./Ahamed-Faraz-Resume.pdf","_blank")
   }
 
 // const resumebtns=document.querySelectorAll(".click");
